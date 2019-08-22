@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='UTF-8'>
+    <title>Calculador De Gorjetas</title>
+    <link rel='stylesheet' href='css/bootstrap.css'>
+    <link rel='script' href='index.js'>
+</head>
+<body>
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <img src="logo.jpg">
+            <h1 class="display-4">Contador de Gorjetas</h1>
+
+        </div>
+    </div>
+	<div class="container">
+  		<h1 class="centralizar">Bar Comeu Morreu!</h1>
+	</div>
+	<form name="text" class="centralizar">
+		<p>Valor da Conta é: </p>
+		<input type="text" name="valorConta">
+		<p>Valor Dividido é: </p>
+		<input type="text" name="valorDividido">
+	</form>
+	<script type="text/javascript">
+			parent.document.getElementById("contaTotal").value = gorjeta;
+            parent.document.getElementById("contaDividida").value = dividida;
+	</script>
+</body>
+</html>
